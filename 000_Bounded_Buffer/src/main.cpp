@@ -1,6 +1,8 @@
-#include "bounded_buffer"
+#include "bounded_buffer.h"
 #include <thread>
 #include <chrono>
+
+using namespace std;
 
 int main()
 {
