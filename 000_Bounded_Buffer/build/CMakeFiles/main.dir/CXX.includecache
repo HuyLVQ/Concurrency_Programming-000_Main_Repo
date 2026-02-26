@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/bounded_buffer.h
+iostream
+-
+mutex
+-
+condition_variable
+-
+queue
+-
+
+/home/quochuylv304/001_Concurrency_Programming/000_Bounded_Buffer/src/bounded_buffer.cpp
+bounded_buffer.h
+/home/quochuylv304/001_Concurrency_Programming/000_Bounded_Buffer/src/bounded_buffer.h
+
+/home/quochuylv304/001_Concurrency_Programming/000_Bounded_Buffer/src/main.cpp
+bounded_buffer.h
+/home/quochuylv304/001_Concurrency_Programming/000_Bounded_Buffer/src/bounded_buffer.h
+thread
+-
+chrono
+-
+
