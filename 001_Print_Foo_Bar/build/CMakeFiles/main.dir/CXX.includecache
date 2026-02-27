@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/quochuylv304/001_Concurrency_Programming/001_Print_Foo_Bar/src/main.cpp
+iostream
+-
+mutex
+-
+condition_variable
+-
+thread
+-
+chrono
+-
+
