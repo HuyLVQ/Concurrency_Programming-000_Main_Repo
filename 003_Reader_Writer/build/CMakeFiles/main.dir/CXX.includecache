@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/quochuylv304/001_Concurrency_Programming/003_Reader_Writer/src/main.cpp
+iostream
+-
+thread
+-
+vector
+-
+mutex
+-
+shared_mutex
+-
+chrono
+-
+
